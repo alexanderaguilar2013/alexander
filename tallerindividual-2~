@@ -1,8 +1,0 @@
-#!/bin/bash
-# 
-
-echo -n "Digite un proceso para conocer su PID: "
-read N
-
-echo "el PID del proceso "$N" es:" 
-sudo ps -A | grep "$N" | cut -d" " -f2
