@@ -1,7 +1,0 @@
-#! /bin/bash
-# particiones
-
-echo "acontinuacion se mostrara el espacio disponible de cada una las particiones(Disp): "
-
-
-sudo df -h
