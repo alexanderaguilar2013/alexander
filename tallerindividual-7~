@@ -1,0 +1,8 @@
+#! /bin/bash
+# CPU
+
+echo "acontinuacion se mostrara el proceso que consume mas CPU: "
+
+
+sudo ps aux | awk '{print $2, $3, $11}' | sort -k2r | head -n 2
+

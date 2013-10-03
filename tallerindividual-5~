@@ -1,0 +1,9 @@
+#! /bin/bash
+# ejercicio5
+
+echo "los puntos de montanje de los dispositivos de almacenamiento son:  "
+
+sudo blkid
+
+
+

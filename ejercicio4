@@ -1,0 +1,9 @@
+#!/bin/bash
+#ejercicio4
+d=`date +'%b %e' -d "yesterday"`
+f=`date +'%b %e' -d "2 days ago"`
+
+echo "Se buscaran los archivos modificados el dia "$d" y el dia "$f" "
+echo "Los archivos modificados ayer y ante ayer son: "
+
+ls -l /var/log | grep -e "$d" -e "$f"
